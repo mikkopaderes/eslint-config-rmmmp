@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-rmmmp",
+  "version": "0.0.1",
+  "description": "ESLint shareable config",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/rmmmp/eslint-config-rmmmp.git",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Mikko Paderes",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "eslint-config-google": "^0.9.1"
+  }
+}
