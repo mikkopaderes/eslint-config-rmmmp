@@ -1,6 +1,10 @@
 module.exports = {
   rules: {
-    // Causes errors in tests due to this being thrown around
-    'no-invalid-this': 'off',
+    'func-names': 'off',
+    'no-underscore-dangle': 'off',
+    'ember/avoid-leaking-state-in-ember-objects': 'off',
+    'import/no-unresolved': 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'import/extensions': 'off',
   },
 };
