@@ -16,7 +16,7 @@ For JavaScript codes:
 
 ```js
 {
-  "extends": ['airbnb-base', 'rmmmp/base']
+  extends: ['airbnb-base', 'rmmmp/base']
 }
 ```
 
@@ -24,6 +24,6 @@ For Ember apps:
 
 ```js
 {
-  "extends": ['airbnb-base', 'rmmmp/base', 'rmmmp/ember']
+  extends: ['airbnb-base', 'rmmmp/base', 'rmmmp/ember']
 }
 ```
