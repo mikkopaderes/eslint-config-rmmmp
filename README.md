@@ -14,16 +14,16 @@ npm install --save-dev eslint-config-rmmmp
 
 For JavaScript codes:
 
-```json
+```js
 {
-  "extends": ["rmmmp/base"]
+  "extends": ['airbnb-base', 'rmmmp/base']
 }
 ```
 
 For Ember apps:
 
-```json
+```js
 {
-  "extends": ["rmmmp/base", "rmmmp/ember"]
+  "extends": ['airbnb-base', 'rmmmp/base', 'rmmmp/ember']
 }
 ```
