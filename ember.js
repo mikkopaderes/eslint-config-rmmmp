@@ -7,4 +7,15 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'import/extensions': 'off',
   },
+  overrides: [
+    // test files
+    {
+      files: [
+        '**/*-test.js',
+      ],
+      rules: {
+        'prefer-arrow-callback': 'off',
+      },
+    },
+  ],
 };
