@@ -23,6 +23,15 @@ module.exports = {
         },
       },
     ],
+    'valid-jsdoc': [
+      'error',
+      {
+        requireParamDescription: false,
+        requireReturnDescription: false,
+        requireReturn: false,
+        prefer: { returns: 'return' },
+      },
+    ],
     'no-restricted-syntax': [
       'error',
       {
